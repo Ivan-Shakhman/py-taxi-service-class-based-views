@@ -11,6 +11,8 @@
         <p>No drivers</p>
     {% endif %}
     
-    
+    {% block pagination %}
+        {% include "includes/pagination.html" %}
+      {% endblock %}
     </ul>
 {% endblock %}
